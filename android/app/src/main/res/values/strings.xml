@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">LunaLoop</string>
+    <string name="title_activity_main">LunaLoop</string>
+    <string name="package_name">com.lunaloop.app</string>
+    <string name="custom_url_scheme">com.lunaloop.app</string>
+</resources>
