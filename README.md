@@ -1,112 +1,48 @@
-<div align="center">
-  <img src="https://via.placeholder.com/1200x400?text=LunaLoop+Banner" alt="LunaLoop Banner" width="100%" />
+# LunaLoop: Gamified Period Tracking App
 
-  # LunaLoop: Gamified Period Tracking App
-  
-  **A privacy-first, gamified menstrual health application built for KMK3323 Human-Computer Interaction.**
-  
-  [View Demo / APK] • [Report Bug] • [Request Feature]
-</div>
-
----
+**A privacy-first, gamified menstrual health application built for KMK3323 Human-Computer Interaction.**
 
 ## 📖 About The Project
 
-**LunaLoop** is a high-fidelity smartphone application designed to address the lack of consistent menstrual tracking among university students. Traditional apps can be intrusive or lack motivation; LunaLoop solves this by combining **gamification** with a **privacy-first local storage architecture**.
+**LunaLoop** is a high-fidelity smartphone application designed to address the lack of consistent menstrual tracking among university students. Traditional apps can be intrusive or lack motivation; LunaLoop solves this by combining gamification elements with a privacy-first local storage architecture.
 
-This project was developed as part of the **KMK3323 Human-Computer Interaction** course (Semester 1 2025/2026) at UNIMAS, following a rigorous 4-phase User-Centered Design (UCD) process:
-1.  **Phase 1:** User Research & MVP Scoping
-2.  **Phase 2:** Conceptual Design & Wireflows
-3.  **Phase 3:** Low-Fidelity Evaluation (Cooperative Evaluation)
-4.  **Phase 4:** High-Fidelity Implementation & Usability Testing
+This project was developed as part of the **KMK3323 Human-Computer Interaction** course (Semester 1 2025/2026) at UNIMAS, following a rigorous User-Centered Design (UCD) process from ideation to a fully functional Android MVP.
 
-### Key Features (MVP)
-* **🎮 Gamification Engine:** Users earn XP, unlock badges (e.g., "Log in for 5 days"), and level up to maintain engagement.
-* **🔒 Privacy Mode:** A dedicated toggle that instantly masks sensitive data and uses a discreet app icon/name.
-* **⚡ Fast Daily Logging:** Streamlined one-page logging for Flow, Symptoms, Mood, and Water (takes <30 seconds).
-* **📅 Dynamic CycleWheel:** Visual representation of the current phase, day count, and fertility window.
-* **🔔 Smart Reminders:** Customizable notifications for period start and daily logging.
-* **📱 Offline Capability:** Local-first architecture ensures the app works perfectly without an internet connection.
+## ✨ Key Features
 
----
+The app implements the following MVP features:
+
+* **Gamification Engine:** A logic engine that awards XP for daily logging, featuring visual level-up notifications and unlockable badges to encourage consistency.
+* **Privacy Mode:** A dedicated "Eye Icon" toggle on the dashboard that masks sensitive data instantly for use in public spaces.
+* **Fast Daily Logging:** A streamlined tracking page for logging Flow, Symptoms, Mood, and Water in under 30 seconds.
+* **Dynamic CycleWheel:** A dashboard visualization showing the current phase, day count, and fertility window.
+* **Local-First Architecture:** All data is stored locally on the device to ensure privacy and offline functionality.
+* **Smart Reminders:** Custom notifications for specific times (e.g., 8:00 AM) to prompt logging or warn of upcoming cycles.
 
 ## 🛠 Tech Stack
 
-This project utilizes a hybrid development approach to create a fully functional Android MVP.
+This project utilizes a hybrid development approach to create a native Android APK:
 
-* **Framework:** [React](https://reactjs.org/) (TypeScript) - Selected for component reusability.
-* **Build System:** [Capacitor](https://capacitorjs.com/) - Wraps the web app into a native Android APK.
-* **Development Tools:** Android Studio (Emulation & Build).
-* **AI Tools:** Google AI Studio (Gemini 3.0 Pro) - Used for debugging complex state management and code generation.
-
----
-
-## 🚀 Getting Started
-
-Follow these steps to run the project locally for development.
-
-### Prerequisites
-* Node.js (v18 or higher)
-* Android Studio (for APK generation)
-
-### Installation
-
-1.  **Clone the repository**
-    ```sh
-    git clone [https://github.com/awanan07/LunaLoop.git](https://github.com/awanan07/LunaLoop.git)
-    cd LunaLoop
-    ```
-
-2.  **Install dependencies**
-    ```sh
-    npm install
-    ```
-
-3.  **Run the web development server**
-    ```sh
-    npm run dev
-    ```
-
-4.  **Sync with Android (Capacitor)**
-    ```sh
-    npx cap sync
-    npx cap open android
-    ```
-
----
-
-## 🎨 Design & Screenshots
-
-### High-Fidelity Prototype
-| Home Dashboard | Fast Logging | Gamification Badges |
-|:---:|:---:|:---:|
-| <img src="URL_TO_YOUR_HOME_SCREENSHOT" width="200" /> | <img src="URL_TO_YOUR_LOGGING_SCREENSHOT" width="200" /> | <img src="URL_TO_YOUR_BADGES_SCREENSHOT" width="200" /> |
-
-*Note: The design utilizes the Inter typeface and a palette of Pink (#FF729F) and Green (#4ADE80) based on the Phase 2 Style Guide.*
-
----
+* **Framework:** React (TypeScript)
+* **Build System:** Capacitor
+* **Development Environment:** Android Studio
+* **AI Assistance:** Google AI Studio (Gemini 3.0 Pro) - Used for debugging state management and code generation.
 
 ## 👥 The Team
 
 **Faculty of Cognitive Science and Human Development (UNIMAS)**
 
-| Name | Matric Number | Role |
-|:---:|:---:|:---|
-| **Abdul Aidil Azrie Bin Abdul Rahman** | 86235 | Group Leader / Dev |
-| **Genyvine Meryence Anak Gerald** | 102298 | Co-Leader / Research |
-| **Muhammad Zaheed Imran Bin Tanuja** | 101922 | Active Member / Media |
-| **Dayang Nurrafiqah Binti Awang Abdurahman** | 98668 | Active Member / Testing |
-| **Nabihah Binti Zainoldin@Zainuddin** | 100017 | Active Member / Video |
-| **See Sze Pei** | 85618 | Active Member / Scenarios |
-
----
-
-## 📝 License
-
-Distributed for academic purposes.
-
----
+| Name | Matric Number |
+|:---|:---:|
+| **Abdul Aidil Azrie Bin Abdul Rahman** | 86235 |
+| **Genyvine Meryence Anak Gerald** | 102298 |
+| **Muhammad Zaheed Imran Bin Tanuja** | 101922 |
+| **Dayang Nurrafiqah Binti Awang Abdurahman** | 98668 |
+| **Nabihah Binti Zainoldin@Zainuddin** | 100017 |
+| **See Sze Pei** | 85618 |
 
 ## 🙏 Acknowledgements
+
+* **Course:** KMK 3323 Human-Computer Interaction
 * **Lecturer:** Professor Madya Dr. Mohd Kamal Bin Othman (G02)
-* **Course:** KMK3323 Human-Computer Interaction
+* **Institution:** Universiti Malaysia Sarawak (UNIMAS)
